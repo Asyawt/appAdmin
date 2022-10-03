@@ -1,0 +1,26 @@
+
+.nulldata.data-v-106663f8{
+    color: #cccccc;
+    text-align: center;
+    margin-top: 60rpx;
+}
+.I-style.data-v-106663f8{
+	color: #cccccc;
+}
+.att-input.data-v-106663f8{
+	background-color: #f7f7f7;
+	padding: 20rpx;
+	border-radius: 7rpx;
+}
+.classif.data-v-106663f8{
+	margin: 60rpx 0 !important;
+}
+.modify-sub.data-v-106663f8{
+	padding-bottom: 60rpx !important;
+}
+.showNull.data-v-106663f8{
+  text-align: center;
+  color: #cccccc;
+  margin: 10rpx 0;
+  height: 40rpx;
+}

@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/commodity/commodity",
+    "pages/order/order",
+    "pages/sort-admin/sort",
+    "pages/goods_admin/goods_admin",
+    "pages/specs/specs",
+    "pages/banner-admin/banner",
+    "pages/goods_list/list",
+    "pages/seckill-admin/seckill"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "onReachBottomDistance": 100
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab/shouye-weixuan.png",
+        "selectedIconPath": "static/tab/shouye-yixuan.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/commodity/commodity",
+        "iconPath": "static/tab/shangpin-weixuan.png",
+        "selectedIconPath": "static/tab/shangpin-yixuan.png",
+        "text": "商品"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "static/tab/dingdan-weixuan.png",
+        "selectedIconPath": "static/tab/dingdan-yixuan.png",
+        "text": "订单"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

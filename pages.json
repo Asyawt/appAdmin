@@ -1,0 +1,101 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom" ,
+        "enablePullDownRefresh": true
+        
+			}
+		},
+    {
+    	"path": "pages/commodity/commodity",
+    	"style": {
+    		"navigationBarTitleText": "商品管理",
+        "navigationBarBackgroundColor": "#fefefe"
+    	}
+    },
+    {
+    	"path": "pages/order/order",
+    	"style": {
+    		"navigationBarTitleText": "订单管理",
+        "navigationBarBackgroundColor": "#f4f4f4"
+    	}
+    },
+    {
+    	"path": "pages/sort-admin/sort",
+    	"style": {
+    		"navigationBarTitleText": "分类管理",
+        "navigationBarBackgroundColor": "#fefefe"
+    	}
+    },
+    {
+    	"path": "pages/goods_admin/goods_admin",
+    	"style": {
+    		"navigationBarTitleText": "上传商品",
+        "navigationBarBackgroundColor": "#fefefe"
+    	}
+    },
+    {
+    	"path": "pages/specs/specs",
+    	"style": {
+    		"navigationBarTitleText": "添加规格",
+        "navigationBarBackgroundColor": "#ededed"
+    	}
+    },
+    {
+    	"path": "pages/banner-admin/banner",
+    	"style": {
+    		"navigationBarTitleText": "横幅管理",
+        "navigationBarBackgroundColor": "#fefefe"
+    	}
+    },
+    {
+    	"path": "pages/goods_list/list",
+    	"style": {
+    		"navigationBarTitleText": "选择商品",
+        "navigationBarBackgroundColor": "#fefefe"
+    	}
+    },
+    {
+    	"path": "pages/seckill-admin/seckill",
+    	"style": {
+    		"navigationBarTitleText": "秒杀管理",
+        "navigationBarBackgroundColor": "#fefefe"
+    	}
+    }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+    "onReachBottomDistance": 100
+	},
+  "tabBar": {
+     "color": "#7A7E83",
+     "selectedColor": "#3cc51f",
+     "borderStyle": "black",
+     "backgroundColor": "#ffffff",
+     "list": [
+   	{
+   				"pagePath": "pages/index/index",
+   				"iconPath": "static/tab/shouye-weixuan.png",
+   				"selectedIconPath": "static/tab/shouye-yixuan.png",
+   				"text": "首页"
+   			},
+   			{
+   				"pagePath": "pages/commodity/commodity",
+   				"iconPath": "static/tab/shangpin-weixuan.png",
+   				"selectedIconPath": "static/tab/shangpin-yixuan.png",
+   				"text": "商品"
+   			},
+   			{
+   				"pagePath": "pages/order/order",
+   				"iconPath": "static/tab/dingdan-weixuan.png",
+   				"selectedIconPath": "static/tab/dingdan-yixuan.png",
+   				"text": "订单"
+   			}
+     ]
+  }
+}
